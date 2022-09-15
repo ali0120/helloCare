@@ -1,0 +1,80 @@
+.Select {
+    margin: 8px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.Select label {
+    top: -11px;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: var(--prim-color);
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Select i {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+.Select select {
+    font-size: 15px;
+    width: 100% !important;
+    background-position: calc(100% - 8px);
+    border:none;
+    color: var(--text-color);
+    border-radius: 4px;
+    transition: all ease-in-out 0.2s;
+    display: block !important;
+    padding: 0.5rem;
+    margin-top: 25px;
+}
+
+[dir="ar"] .Select select {
+    background-position: 8px;
+}
+
+.Select select:active,
+.Select select:focus {
+    outline: none;
+}
+
+.Select .add_btn button,
+.Select .search_btn button {
+    border-radius: 20%;
+    padding: 0;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Select .add_btn button:hover,
+.Select .search_btn button:hover {
+    color: var(--light-color);
+    background: var(--dark-color);
+}
+
+.Select .add_btn button i {
+    font-size: 27px;
+}
+
+.Select .search_btn button i {
+    font-size: 18px;
+}
+
+.Select span {
+    color: var(--danger-color);
+    font-size: 12px;
+    text-align: start;
+}

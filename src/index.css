@@ -1,0 +1,26 @@
+/* Font Family */
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  src: url('./assets/Fonts/DroidKufi-Regular.ttf'), url('./assets/Fonts/DroidKufi-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html,
+body {
+  font-family: 'Roboto', 'Droid Arabic Kufi', 'Arial', sans-serif;
+}

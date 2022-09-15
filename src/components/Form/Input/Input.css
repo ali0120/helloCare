@@ -1,0 +1,65 @@
+.Input {
+    margin: 8px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Input label {
+    top: 0;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: var(--main-color);
+    white-space: nowrap;
+    position: absolute;
+}
+
+.Input input {
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    border-radius: 4px;
+    transition: all ease-in-out 0.2s;
+    display: block;
+    padding: 0.5rem;
+    margin-top: 25px;
+}
+
+.Input input:active,
+.Input input:focus {
+    outline: none;
+    border-color: var(--main-color);
+}
+
+.Input .search_btn button {
+    background: var(--main-color);
+    color: var(--light-color);
+    border-radius: 20%;
+    padding: 0;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Input .search_btn button:hover {
+    color: var(--light-color);
+    background: var(--dark-color);
+}
+
+.Input span {
+    text-transform: capitalize;
+    color: var(--danger-color);
+    font-size: 12px;
+    text-align: start;
+}
+
+[dir="ar"] .Input span {
+    direction: ltr !important;
+    text-align: end;
+}
