@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.90f9e6c6.css",
+    "main.js": "/static/js/main.9fa1cbb2.js",
+    "static/media/Group_49149 1.png": "/static/media/Group_49149 1.3d54e6a83a548b6ced13.png",
+    "static/media/DroidKufi-Regular.ttf": "/static/media/DroidKufi-Regular.475efa448565fa19578b.ttf",
+    "static/media/DroidKufi-Bold.ttf": "/static/media/DroidKufi-Bold.9595f807a0a420e93302.ttf",
+    "static/media/stethoscope.svg": "/static/media/stethoscope.b9bf4dc152d70dce9371cb324b9d8d77.svg",
+    "index.html": "/index.html",
+    "main.90f9e6c6.css.map": "/static/css/main.90f9e6c6.css.map",
+    "main.9fa1cbb2.js.map": "/static/js/main.9fa1cbb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90f9e6c6.css",
+    "static/js/main.9fa1cbb2.js"
+  ]
+}
