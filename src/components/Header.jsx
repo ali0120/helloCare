@@ -7,12 +7,16 @@ import "../App.css";
 
 function Header() {
   const { t } = useTranslation();
+  const [defStorage, setdefStorage] = useState('ar')
+  localStorage.LANGUAGE = defStorage
   const [Language, setLanguage] = useState(
-    window.localStorage.LANGUAGE || "ar"
+    localStorage.LANGUAGE || "ar"
   );
+
   const LanguageHandling = (e) => {
     setLanguage(e.target.id);
     localStorage.LANGUAGE = e.target.id;
+    setdefStorage(e.target.id);
   };
   useEffect(() => {
     // document.querySelector("html").lang = Language;
