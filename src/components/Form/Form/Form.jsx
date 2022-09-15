@@ -3,7 +3,6 @@ import React from 'react';
 // React Hook Form
 import { useForm, FormProvider } from 'react-hook-form';
 
-
 // Style
 import './Form.css';
 
